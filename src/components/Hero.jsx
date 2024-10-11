@@ -19,9 +19,10 @@ export default function Hero() {
                     <div className="hero-overlay bg-opacity-60"></div>
                     <div className="hero-content text-neutral-content text-center relative z-10">
                         <div className="max-w-md">
-                            <h1 className="mb-5 text-5xl text-pink-500 font-bold">Hello there</h1>
-                            <p className="mb-5">
-                                Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda excepturi exercitationem quasi.
+                            {/* ข้อความบอกรักใหม่ */}
+                            <h1 className="mb-5 text-5xl text-pink-500 font-bold">My love for you grows stronger every day.</h1>
+                            <p className="mb-5 text-lg text-gray-700">
+                                Every moment with you feels like a dream, and I'm so grateful to have you in my life. You are my heart's greatest treasure.
                             </p>
                             <Link to="Page1">
                                 <button className="btn btn-primary">
@@ -31,7 +32,7 @@ export default function Hero() {
                         </div>
                     </div>
                 </div>
-            </header>
-        </div>
+            </header >
+        </div >
     );
 }

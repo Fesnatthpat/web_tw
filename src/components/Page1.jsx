@@ -37,13 +37,13 @@ export default function Page1() {
                         className="md:max-w-sm rounded-lg shadow-2xl"
                         alt="Hero" />
                     <div>
-                        <h1 className="text-5xl font-bold">Box Office News!</h1>
-                        <p className="py-6">
-                            Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda excepturi exercitationem
-                            quasi. In deleniti eaque aut repudiandae et a id nisi.
+                        {/* ข้อความบอกรักใหม่ */}
+                        <h1 className="text-5xl font-bold text-purple-700">You are my sunshine, my everything.</h1>
+                        <p className="py-6 text-xl text-gray-600">
+                            From the moment I met you, my world became brighter and more beautiful. You complete me in ways I never thought possible.
                         </p>
-                        <button className="btn btn-primary">Get Started</button>
                     </div>
+
                     <p className="text-white mt-4">Enjoy the music while browsing</p>
                     {/* ใส่ Audio Element */}
                     <audio ref={audioRef} src={song} loop />
