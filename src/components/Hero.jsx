@@ -1,4 +1,5 @@
 // components/Hero.js
+import React from "react";
 import { Link } from "react-router-dom";
 import videoSrc from '../assets/img/video/vdo_1.mp4'; // นำเข้าไฟล์วิดีโอจากตำแหน่งที่ถูกต้อง'
 

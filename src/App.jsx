@@ -1,4 +1,6 @@
 // App.js
+// eslint-disable-next-line no-unused-vars
+import React, { useEffect, useRef } from "react";
 import './App.css';
 import Hero from './components/Hero';
 import Navbar from './components/Navbar';
@@ -17,6 +19,15 @@ const router = createBrowserRouter([
 ]);
 
 function App() {
+  const audioRef = useRef(null);
+
+  useEffect(() => {
+    // เมื่อ component ถูกโหลดให้เพลงเริ่มเล่นอัตโนมัติ
+    if (audioRef.current) {
+      audioRef.current.play();
+    }
+  }, []);
+
   return (
     <>
       <RouterProvider router={router} />
