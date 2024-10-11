@@ -25,11 +25,11 @@ export default function Page1() {
     return (
         <div>
             <div className="hero bg-base-200 min-h-screen">
-                <div className="hero-content flex-col lg:flex-row">
+                <div className="hero-content flex-col lg:flex-row mt-20">
                     {/* ใช้รูปภาพที่นำเข้ามา */}
                     <img
                         src={heroImage} // ใช้ตัวแปรที่ import รูปภาพเข้ามา
-                        className="max-w-sm rounded-lg shadow-2xl"
+                        className="md:max-w-sm rounded-lg shadow-2xl "
                         alt="Hero" />
                     <div>
                         <h1 className="text-5xl font-bold">Box Office News!</h1>
