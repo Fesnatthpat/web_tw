@@ -47,15 +47,17 @@ export default function Page1() {
                             From the moment I met you, my world became brighter and more beautiful. You complete me in ways I never thought possible.
                         </p>
                     </div>
-                    <p className="text-white mt-4">Enjoy the music while browsing</p>
-                    <audio ref={audioRef} src={Songsrc} loop />
-                    <button onClick={handlePlayPause} className="btn btn-secondary mt-4">
-                        {isPlaying ? 'Pause' : 'Play'}
-                    </button>
+
                 </div>
             </div>
-
-            <Page2 />
+            <div className="flex flex-col items-center">
+                <Page2 />
+                <p className="text-white mt-4">Enjoy the music while browsing</p>
+                <audio ref={audioRef} src={Songsrc} loop />
+                <button onClick={handlePlayPause} className="btn btn-secondary mt-4">
+                    {isPlaying ? 'Pause' : 'Play'}
+                </button>
+            </div>
         </div>
     );
 }
