@@ -3,14 +3,14 @@ import React from 'react';
 function Page2() {
     // อาร์เรย์ที่เก็บที่อยู่ของรูปภาพทั้งหมด
     const imageArray = [
-        "../src/assets/images/LINE_ALBUM_121067_241013_1.jpg",
-        "../src/assets/images/LINE_ALBUM_121067_241013_2.jpg",
-        "../src/assets/images/LINE_ALBUM_121067_241013_3.jpg",
-        "../src/assets/images/LINE_ALBUM_121067_241013_4.jpg",
-        "../src/assets/images/LINE_ALBUM_121067_241013_5.jpg",
-        "../src/assets/images/LINE_ALBUM_121067_241013_6.jpg",
-        "../src/assets/images/LINE_ALBUM_121067_241013_7.jpg",
-        "../src/assets/images/LINE_ALBUM_121067_241013_8.jpg"
+        "/assets/images/LINE_ALBUM_121067_241013_1.jpg",
+        "/assets/images/LINE_ALBUM_121067_241013_2.jpg",
+        "/assets/images/LINE_ALBUM_121067_241013_3.jpg",
+        "/assets/images/LINE_ALBUM_121067_241013_4.jpg",
+        "/assets/images/LINE_ALBUM_121067_241013_5.jpg",
+        "/assets/images/LINE_ALBUM_121067_241013_6.jpg",
+        "/assets/images/LINE_ALBUM_121067_241013_7.jpg",
+        "/assets/images/LINE_ALBUM_121067_241013_8.jpg"
     ];
 
     return (
