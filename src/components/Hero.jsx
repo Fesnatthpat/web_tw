@@ -1,5 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import videosrc from "/assets/video/732448327.585782.mp4"
 
 export default function Hero() {
     return (
@@ -8,7 +9,7 @@ export default function Hero() {
                 <div className="hero min-h-screen relative">
                     <video
                         className="absolute inset-0 w-full h-full object-cover"
-                        src="/assets/video/732448327.585782.mp4" // ใช้เส้นทางจาก public directory
+                        src={videosrc} // ใช้เส้นทางจาก public directory
                         autoPlay
                         loop
                         muted
