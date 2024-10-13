@@ -50,8 +50,8 @@ export default function Page1() {
 
                 </div>
             </div>
-            <div className="flex flex-col items-center">
                 <Page2 />
+            <div className="mx-20 flex flex-col items-center">
                 <p className="text-white mt-4">Enjoy the music while browsing</p>
                 <audio ref={audioRef} src={Songsrc} loop />
                 <button onClick={handlePlayPause} className="btn btn-secondary mt-4">

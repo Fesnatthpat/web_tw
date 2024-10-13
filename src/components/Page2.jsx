@@ -23,7 +23,7 @@ function Page2() {
                             <img
                                 src={imageSrc}
                                 alt={`Carousel item ${index + 1}`}
-                                className="rounded-box max-w-sm h-52 object-cover"
+                                className="rounded-box max-w-sm h-56 object-cover"
                             />
                         </div>
                     ))}
