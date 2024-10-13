@@ -4,6 +4,7 @@ import heroImage from '../assets/images/LINE_ALBUM_121067_241013_2.jpg'; // impo
 import Page2 from "./Page2";
 
 
+
 export default function Page1() {
     const audioRef = useRef(null);
     const [isPlaying, setIsPlaying] = useState(false); // state เพื่อเก็บสถานะเพลง
@@ -29,14 +30,17 @@ export default function Page1() {
         }
     };
 
+    
+
     return (
+
         <div>
             <div className="hero bg-base-200 min-h-screen">
                 <div className="hero-content flex-col lg:flex-row">
                     {/* ใช้รูปภาพที่นำเข้ามา */}
                     <img
                         src={heroImage} // ใช้ตัวแปรที่ import รูปภาพเข้ามา
-                        className="md:max-w-sm rounded-lg shadow-2xl shadow-blue-500/50"
+                        className="md:max-w-sm rounded-lg shadow-2xl mt-20 shadow-blue-500/50"
                         alt="Hero" />
                     <div>
                         {/* ข้อความบอกรักใหม่ */}
@@ -55,8 +59,8 @@ export default function Page1() {
                     </button>
                 </div>
             </div>
-                    <Page2 />
-            
+            <Page2 />
+
         </div>
     );
 }
