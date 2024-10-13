@@ -1,6 +1,6 @@
 import React, { useEffect, useRef, useState } from "react";
 import song from '../assets/song/Billie Eilish  BIRDS OF A FEATHER Official Music Video.mp3';
-import heroImage from '/public/images/LINE_ALBUM_121067_241013_2.jpg'; // import รูปภาพตรงนี้
+import heroImage from '../assets/images/LINE_ALBUM_121067_241013_2.jpg'; // import รูปภาพตรงนี้
 import Page2 from "./Page2";
 
 
