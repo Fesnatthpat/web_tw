@@ -30,7 +30,7 @@ export default function Page1() {
         }
     };
 
-    
+
 
     return (
 
@@ -49,9 +49,6 @@ export default function Page1() {
                             From the moment I met you, my world became brighter and more beautiful. You complete me in ways I never thought possible.
                         </p>
                     </div>
-
-                    <Page2 />
-
                     <p className="text-white mt-4">Enjoy the music while browsing</p>
                     {/* ใส่ Audio Element */}
                     <audio ref={audioRef} src={song} loop />
@@ -61,7 +58,8 @@ export default function Page1() {
                     </button>
                 </div>
             </div>
-            
+
+            <Page2 />
 
         </div>
     );
