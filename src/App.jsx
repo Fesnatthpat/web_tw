@@ -6,6 +6,7 @@ import Hero from './components/Hero';
 import Navbar from './components/Navbar';
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 import Page1 from './components/Page1';
+import Page2 from './components/Page2';
 
 const router = createBrowserRouter([
   {
@@ -14,19 +15,20 @@ const router = createBrowserRouter([
     children: [
       { path: "/", element: <Hero /> },
       { path: "Page1", element: <Page1 /> },
+      { path: "Page2", element: <Page2 /> },
     ]
   },
 ]);
 
 function App() {
-  const audioRef = useRef(null);
+  // const audioRef = useRef(null);
 
-  useEffect(() => {
-    // เมื่อ component ถูกโหลดให้เพลงเริ่มเล่นอัตโนมัติ
-    if (audioRef.current) {
-      audioRef.current.play();
-    }
-  }, []);
+  // useEffect(() => {
+  //   // เมื่อ component ถูกโหลดให้เพลงเริ่มเล่นอัตโนมัติ
+  //   if (audioRef.current) {
+  //     audioRef.current.play();
+  //   }
+  // }, []);
 
   return (
     <>

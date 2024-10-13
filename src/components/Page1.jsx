@@ -1,6 +1,8 @@
 import React, { useEffect, useRef, useState } from "react";
-import song from '../assets/img/song/Birds Of A Feather.mp3';
-import heroImage from '../assets/img/S__16285729.jpg'; // import รูปภาพตรงนี้
+import song from '../assets/song/Billie Eilish  BIRDS OF A FEATHER Official Music Video.mp3';
+import heroImage from '../assets/images/LINE_ALBUM_121067_241013_2.jpg'; // import รูปภาพตรงนี้
+import Page2 from "./Page2";
+
 
 export default function Page1() {
     const audioRef = useRef(null);
@@ -30,11 +32,11 @@ export default function Page1() {
     return (
         <div>
             <div className="hero bg-base-200 min-h-screen">
-                <div className="hero-content flex-col lg:flex-row mt-20">
+                <div className="hero-content flex-col lg:flex-row">
                     {/* ใช้รูปภาพที่นำเข้ามา */}
                     <img
                         src={heroImage} // ใช้ตัวแปรที่ import รูปภาพเข้ามา
-                        className="md:max-w-sm rounded-lg shadow-2xl"
+                        className="md:max-w-sm rounded-lg shadow-2xl shadow-blue-500/50"
                         alt="Hero" />
                     <div>
                         {/* ข้อความบอกรักใหม่ */}
@@ -53,6 +55,8 @@ export default function Page1() {
                     </button>
                 </div>
             </div>
+                    <Page2 />
+            
         </div>
     );
 }
