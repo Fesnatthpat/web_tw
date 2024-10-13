@@ -8,37 +8,37 @@ function Page2() {
                     <div className="carousel-item">
                         <img
                             src="../src/assets/images/LINE_ALBUM_121067_241013_1.jpg"
-                            className="rounded-box max-w-sm" />
+                            className="rounded-box max-w-sm object-cover " />
                     </div>
                     <div className="carousel-item">
                         <img
                             src="../src/assets/images/LINE_ALBUM_121067_241013_2.jpg"
-                            className="rounded-box max-w-sm" />
+                            className="rounded-box max-w-sm object-cover " />
                     </div>
                     <div className="carousel-item">
                         <img
                             src="../src/assets/images/LINE_ALBUM_121067_241013_3.jpg"
-                            className="rounded-box max-w-sm" />
+                            className="rounded-box max-w-sm object-cover " />
                     </div>
                     <div className="carousel-item">
                         <img
                             src="../src/assets/images/LINE_ALBUM_121067_241013_4.jpg"
-                            className="rounded-box max-w-sm" />
+                            className="rounded-box max-w-sm object-cover " />
                     </div>
                     <div className="carousel-item">
                         <img
                             src="../src/assets/images/LINE_ALBUM_121067_241013_6.jpg"
-                            className="rounded-box max-w-sm" />
+                            className="rounded-box max-w-sm object-cover " />
                     </div>
                     <div className="carousel-item">
                         <img
                             src="../src/assets/images/LINE_ALBUM_121067_241013_7.jpg"
-                            className="rounded-box max-w-sm" />
+                            className="rounded-box max-w-sm object-cover " />
                     </div>
                     <div className="carousel-item">
                         <img
                             src="../src/assets/images/LINE_ALBUM_121067_241013_8.jpg"
-                            className="rounded-box max-w-sm" />
+                            className="rounded-box max-w-sm object-cover " />
                     </div>
                 </div>
             </div>

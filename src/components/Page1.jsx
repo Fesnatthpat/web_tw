@@ -50,6 +50,8 @@ export default function Page1() {
                         </p>
                     </div>
 
+                    <Page2 />
+
                     <p className="text-white mt-4">Enjoy the music while browsing</p>
                     {/* ใส่ Audio Element */}
                     <audio ref={audioRef} src={song} loop />
@@ -59,7 +61,7 @@ export default function Page1() {
                     </button>
                 </div>
             </div>
-            <Page2 />
+            
 
         </div>
     );
