@@ -1,49 +1,36 @@
-import React from 'react'
+import React from 'react';
 
 function Page2() {
+    // อาร์เรย์ที่เก็บที่อยู่ของรูปภาพทั้งหมด
+    const imageArray = [
+        "src/assets/images/LINE_ALBUM_121067_241013_1.jpg",
+        "src/assets/images/LINE_ALBUM_121067_241013_2.jpg",
+        "src/assets/images/LINE_ALBUM_121067_241013_3.jpg",
+        "src/assets/images/LINE_ALBUM_121067_241013_4.jpg",
+        "src/assets/images/LINE_ALBUM_121067_241013_5.jpg",
+        "src/assets/images/LINE_ALBUM_121067_241013_6.jpg",
+        "src/assets/images/LINE_ALBUM_121067_241013_7.jpg",
+        "src/assets/images/LINE_ALBUM_121067_241013_8.jpg",
+    ];
+
     return (
         <>
             <div className='mx-auto flex justify-center items-center'>
                 <div className="carousel carousel-center bg-neutral rounded-box max-w-md space-x-4 p-4">
-                    <div className="carousel-item">
-                        <img
-                            src="https://img.daisyui.com/images/stock/photo-1559703248-dcaaec9fab78.webp"
-                            className="rounded-box" />
-                    </div>
-                    <div className="carousel-item">
-                        <img
-                            src="https://img.daisyui.com/images/stock/photo-1565098772267-60af42b81ef2.webp"
-                            className="rounded-box" />
-                    </div>
-                    <div className="carousel-item">
-                        <img
-                            src="https://img.daisyui.com/images/stock/photo-1572635148818-ef6fd45eb394.webp"
-                            className="rounded-box" />
-                    </div>
-                    <div className="carousel-item">
-                        <img
-                            src="https://img.daisyui.com/images/stock/photo-1494253109108-2e30c049369b.webp"
-                            className="rounded-box" />
-                    </div>
-                    <div className="carousel-item">
-                        <img
-                            src="https://img.daisyui.com/images/stock/photo-1550258987-190a2d41a8ba.webp"
-                            className="rounded-box" />
-                    </div>
-                    <div className="carousel-item">
-                        <img
-                            src="https://img.daisyui.com/images/stock/photo-1559181567-c3190ca9959b.webp"
-                            className="rounded-box" />
-                    </div>
-                    <div className="carousel-item">
-                        <img
-                            src="https://img.daisyui.com/images/stock/photo-1601004890684-d8cbf643f5f2.webp"
-                            className="rounded-box" />
-                    </div>
+                    {/* ใช้ map เพื่อนำรูปภาพจากอาร์เรย์มาแสดง */}
+                    {imageArray.map((imageSrc, index) => (
+                        <div key={index} className="carousel-item">
+                            <img
+                                src={imageSrc}
+                                alt={`Carousel item ${index + 1}`}
+                                className="rounded-box max-w-sm object-cover"
+                            />
+                        </div>
+                    ))}
                 </div>
             </div>
         </>
-    )
+    );
 }
 
-export default Page2
+export default Page2;
