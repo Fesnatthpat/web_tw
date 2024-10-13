@@ -1,14 +1,5 @@
 import React from 'react'
 
-// import Images_All1 from "../src/assets/images/LINE_ALBUM_121067_241013_1.jpg"
-// import Images_All2 from "../src/assets/images/LINE_ALBUM_121067_241013_2.jpg"
-// import Images_All3 from "../src/assets/images/LINE_ALBUM_121067_241013_3.jpg"
-// import Images_All4 from "../src/assets/images/LINE_ALBUM_121067_241013_4.jpg"
-// import Images_All5 from "../src/assets/images/LINE_ALBUM_121067_241013_5.jpg"
-// import Images_All6 from "../src/assets/images/LINE_ALBUM_121067_241013_6.jpg"
-// import Images_All7 from "../src/assets/images/LINE_ALBUM_121067_241013_7.jpg"
-// import Images_All8 from "../src/assets/images/LINE_ALBUM_121067_241013_8.jpg"
-
 function Page2() {
     return (
         <>
@@ -16,43 +7,38 @@ function Page2() {
                 <div className="carousel carousel-center bg-neutral rounded-box max-w-md space-x-4 p-4">
                     <div className="carousel-item">
                         <img
-                            src="../src/assets/images/LINE_ALBUM_121067_241013_1.jpg"
-                            className="rounded-box max-w-sm object-cover " />
+                            src="https://img.daisyui.com/images/stock/photo-1559703248-dcaaec9fab78.webp"
+                            className="rounded-box" />
                     </div>
                     <div className="carousel-item">
                         <img
-                            src="../src/assets/images/LINE_ALBUM_121067_241013_2.jpg"
-                            className="rounded-box max-w-sm object-cover " />
+                            src="https://img.daisyui.com/images/stock/photo-1565098772267-60af42b81ef2.webp"
+                            className="rounded-box" />
                     </div>
                     <div className="carousel-item">
                         <img
-                            src="../src/assets/images/LINE_ALBUM_121067_241013_3.jpg"
-                            className="rounded-box max-w-sm object-cover " />
+                            src="https://img.daisyui.com/images/stock/photo-1572635148818-ef6fd45eb394.webp"
+                            className="rounded-box" />
                     </div>
                     <div className="carousel-item">
                         <img
-                            src="../src/assets/images/LINE_ALBUM_121067_241013_4.jpg"
-                            className="rounded-box max-w-sm object-cover " />
+                            src="https://img.daisyui.com/images/stock/photo-1494253109108-2e30c049369b.webp"
+                            className="rounded-box" />
                     </div>
                     <div className="carousel-item">
                         <img
-                            src="../src/assets/images/LINE_ALBUM_121067_241013_5.jpg"
-                            className="rounded-box max-w-sm object-cover " />
+                            src="https://img.daisyui.com/images/stock/photo-1550258987-190a2d41a8ba.webp"
+                            className="rounded-box" />
                     </div>
                     <div className="carousel-item">
                         <img
-                            src="../src/assets/images/LINE_ALBUM_121067_241013_7.jpg"
-                            className="rounded-box max-w-sm object-cover " />
+                            src="https://img.daisyui.com/images/stock/photo-1559181567-c3190ca9959b.webp"
+                            className="rounded-box" />
                     </div>
                     <div className="carousel-item">
                         <img
-                            src="../src/assets/images/LINE_ALBUM_121067_241013_7.jpg"
-                            className="rounded-box max-w-sm object-cover " />
-                    </div>
-                    <div className="carousel-item">
-                        <img
-                            src="../src/assets/images/LINE_ALBUM_121067_241013_8.jpg"
-                            className="rounded-box max-w-sm object-cover " />
+                            src="https://img.daisyui.com/images/stock/photo-1601004890684-d8cbf643f5f2.webp"
+                            className="rounded-box" />
                     </div>
                 </div>
             </div>
